@@ -157,14 +157,14 @@
 		AD5A033D1897528000347C57 /* CLTextSettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLTextSettingView.m; sourceTree = "<group>"; };
 		AD5A033E1897528000347C57 /* CLTextTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTextTool.h; sourceTree = "<group>"; };
 		AD5A033F1897528000347C57 /* CLTextTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLTextTool.m; sourceTree = "<group>"; };
-		AD5C1E0018350DC400790989 /* CLImageEditorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLImageEditorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5C1E0018350DC400790989 /* Photoprocessing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photoprocessing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5C1E0318350DC400790989 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AD5C1E0518350DC400790989 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		AD5C1E0718350DC400790989 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		AD5C1E0B18350DC400790989 /* CLImageEditorDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CLImageEditorDemo-Info.plist"; sourceTree = "<group>"; };
+		AD5C1E0B18350DC400790989 /* Photoprocessing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Photoprocessing-Info.plist"; sourceTree = "<group>"; };
 		AD5C1E0D18350DC400790989 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AD5C1E0F18350DC400790989 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AD5C1E1118350DC400790989 /* CLImageEditorDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CLImageEditorDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AD5C1E1118350DC400790989 /* Photoprocessing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Photoprocessing-Prefix.pch"; sourceTree = "<group>"; };
 		AD5C1E1218350DC400790989 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD5C1E1318350DC400790989 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AD5C1E1618350DC400790989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -459,7 +459,7 @@
 		AD5C1E0118350DC400790989 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AD5C1E0018350DC400790989 /* CLImageEditorDemo.app */,
+				AD5C1E0018350DC400790989 /* Photoprocessing.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -495,10 +495,10 @@
 		AD5C1E0A18350DC400790989 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AD5C1E0B18350DC400790989 /* CLImageEditorDemo-Info.plist */,
+				AD5C1E0B18350DC400790989 /* Photoprocessing-Info.plist */,
 				AD5C1E0C18350DC400790989 /* InfoPlist.strings */,
 				AD5C1E0F18350DC400790989 /* main.m */,
-				AD5C1E1118350DC400790989 /* CLImageEditorDemo-Prefix.pch */,
+				AD5C1E1118350DC400790989 /* Photoprocessing-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -515,9 +515,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AD5C1DFF18350DC400790989 /* CLImageEditorDemo */ = {
+		AD5C1DFF18350DC400790989 /* Photoprocessing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AD5C1E3218350DC500790989 /* Build configuration list for PBXNativeTarget "CLImageEditorDemo" */;
+			buildConfigurationList = AD5C1E3218350DC500790989 /* Build configuration list for PBXNativeTarget "Photoprocessing" */;
 			buildPhases = (
 				AD5C1DFC18350DC400790989 /* Sources */,
 				AD5C1DFD18350DC400790989 /* Frameworks */,
@@ -527,9 +527,9 @@
 			);
 			dependencies = (
 			);
-			name = CLImageEditorDemo;
+			name = Photoprocessing;
 			productName = CLImageEditorDemo;
-			productReference = AD5C1E0018350DC400790989 /* CLImageEditorDemo.app */;
+			productReference = AD5C1E0018350DC400790989 /* Photoprocessing.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -546,7 +546,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AD5C1DFB18350DC400790989 /* Build configuration list for PBXProject "CLImageEditorDemo" */;
+			buildConfigurationList = AD5C1DFB18350DC400790989 /* Build configuration list for PBXProject "Photoprocessing" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -560,7 +560,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AD5C1DFF18350DC400790989 /* CLImageEditorDemo */,
+				AD5C1DFF18350DC400790989 /* Photoprocessing */,
 			);
 		};
 /* End PBXProject section */
@@ -748,10 +748,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = JQNK74493B;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CLImageEditorDemo/CLImageEditorDemo-Prefix.pch";
-				INFOPLIST_FILE = "CLImageEditorDemo/CLImageEditorDemo-Info.plist";
+				GCC_PREFIX_HEADER = "CLImageEditorDemo/Photoprocessing-Prefix.pch";
+				INFOPLIST_FILE = "CLImageEditorDemo/Photoprocessing-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.calaculu.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.photoprocessing.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -765,10 +765,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = JQNK74493B;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CLImageEditorDemo/CLImageEditorDemo-Prefix.pch";
-				INFOPLIST_FILE = "CLImageEditorDemo/CLImageEditorDemo-Info.plist";
+				GCC_PREFIX_HEADER = "CLImageEditorDemo/Photoprocessing-Prefix.pch";
+				INFOPLIST_FILE = "CLImageEditorDemo/Photoprocessing-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.calaculu.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.photoprocessing.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -778,7 +778,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AD5C1DFB18350DC400790989 /* Build configuration list for PBXProject "CLImageEditorDemo" */ = {
+		AD5C1DFB18350DC400790989 /* Build configuration list for PBXProject "Photoprocessing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AD5C1E3018350DC500790989 /* Debug */,
@@ -787,7 +787,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD5C1E3218350DC500790989 /* Build configuration list for PBXNativeTarget "CLImageEditorDemo" */ = {
+		AD5C1E3218350DC500790989 /* Build configuration list for PBXNativeTarget "Photoprocessing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AD5C1E3318350DC500790989 /* Debug */,
